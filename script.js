@@ -2,7 +2,7 @@
 document.getElementById('fetchData').addEventListener('click', async function() {
     try {
         // Fetch user data from the serverless function API
-        const response = await fetch('api/index.js');
+        const response = await fetch('https://posttest1-flame.vercel.app/');
         
         // Check if the response is OK (status code 200)
         if (!response.ok) {
